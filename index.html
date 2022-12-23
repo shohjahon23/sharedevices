@@ -30,13 +30,16 @@
 
   <body>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark" id="home">
       <div class="row py-2 px-lg-5">
         <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
           <div class="d-inline-flex align-items-center text-white">
-            <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
+            <small><i class="fa fa-phone-alt mr-2"></i>+998 90 020 38 20</small>
             <small class="px-3">|</small>
-            <small><i class="fa fa-envelope mr-2"></i>info@example.com</small>
+            <small
+              ><i class="fa fa-envelope mr-2"></i
+              >eralideveloper@gmail.com</small
+            >
           </div>
         </div>
         <div class="col-lg-6 text-center text-lg-right">
@@ -85,10 +88,11 @@
           id="navbarCollapse"
         >
           <div class="navbar-nav mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Asosiy</a>
-            <a href="about.html" class="nav-item nav-link">Biz haqimizda</a>
-            <a href="course.html" class="nav-item nav-link">Studentlar</a>
-            <a href="contact.html" class="nav-item nav-link">Bog'lanish</a>
+            <a href="#home" class="nav-item nav-link active">Asosiy</a>
+            <a href="#about" class="nav-item nav-link">Biz haqimizda</a>
+            <a href="#students" class="nav-item nav-link">Studentlar</a>
+            <a href="#partners" class="nav-item nav-link">Homiylar</a>
+            <a href="#contacts" class="nav-item nav-link">Bog'lanish</a>
           </div>
         </div>
       </nav>
@@ -107,7 +111,7 @@
     <!-- Header End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="about">
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px">
@@ -241,7 +245,7 @@
     <!-- Feature Start -->
 
     <!-- Courses Start -->
-    <div class="container-fluid px-0 py-5">
+    <div class="container-fluid px-0 py-5" id="students">
       <div class="row mx-0 justify-content-center pt-5">
         <div class="col-lg-6">
           <div class="section-title text-center position-relative mb-4">
@@ -386,7 +390,7 @@
     <!-- Courses End -->
 
     <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="partners">
       <div class="container py-5">
         <div class="section-title text-center position-relative mb-5">
           <h6
@@ -394,7 +398,7 @@
           >
             Hamkorlar
           </h6>
-          <h1 class="display-4">Hamkorlarimiz</h1>
+          <h1 class="display-4">Bizning Hamkorlarimiz</h1>
         </div>
         <div
           class="owl-carousel team-carousel position-relative"
@@ -496,7 +500,7 @@
               >
                 Fikrlar
               </h6>
-              <h1 class="display-4">Bizga bildirilgan fikrlar</h1>
+              <h1 class="display-4">Bizga Bildirilgan Fikrlar</h1>
             </div>
             <p class="m-0">
               Dolor est dolores et nonumy sit labore dolores est sed rebum amet,
@@ -556,7 +560,7 @@
     <!-- Testimonial Start -->
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="contacts">
       <div class="container py-5">
         <div class="row align-items-center">
           <div class="col-lg-5 mb-5 mb-lg-0">
@@ -598,9 +602,9 @@
               <h6
                 class="d-inline-block position-relative text-secondary text-uppercase pb-2"
               >
-                Need Help?
+                Firk bildirish
               </h6>
-              <h1 class="display-4">Send Us A Message</h1>
+              <h1 class="display-4">Biz haqimizda fikringiz qanday?</h1>
             </div>
             <div class="contact-form">
               <form>
@@ -609,7 +613,7 @@
                     <input
                       type="text"
                       class="form-control border-top-0 border-right-0 border-left-0 p-0"
-                      placeholder="Your Name"
+                      placeholder="Ismingiz"
                       required="required"
                     />
                   </div>
@@ -617,7 +621,7 @@
                     <input
                       type="email"
                       class="form-control border-top-0 border-right-0 border-left-0 p-0"
-                      placeholder="Your Email"
+                      placeholder="Email"
                       required="required"
                     />
                   </div>
@@ -626,7 +630,7 @@
                   <input
                     type="text"
                     class="form-control border-top-0 border-right-0 border-left-0 p-0"
-                    placeholder="Subject"
+                    placeholder="Sarlavha"
                     required="required"
                   />
                 </div>
@@ -634,13 +638,13 @@
                   <textarea
                     class="form-control border-top-0 border-right-0 border-left-0 p-0"
                     rows="5"
-                    placeholder="Message"
+                    placeholder="Xabar"
                     required="required"
                   ></textarea>
                 </div>
                 <div>
                   <button class="btn btn-primary py-3 px-5" type="submit">
-                    Send Message
+                    Fikr bildirish
                   </button>
                 </div>
               </form>
@@ -713,13 +717,13 @@
             </div>
           </div>
           <div class="col-md-4 mb-5">
-            <h3 class="text-white mb-4">Quick Links</h3>
+            <h3 class="text-white mb-4">Linklar</h3>
             <div class="d-flex flex-column justify-content-start">
               <a class="text-white-50 mb-2" href="#"
-                ><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a
+                ><i class="fa fa-angle-right mr-2"></i>Telegram bot</a
               >
               <a class="text-white-50 mb-2" href="#"
-                ><i class="fa fa-angle-right mr-2"></i>Terms & Condition</a
+                ><i class="fa fa-angle-right mr-2"></i>Lorem, ipsum.</a
               >
               <a class="text-white-50 mb-2" href="#"
                 ><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a
